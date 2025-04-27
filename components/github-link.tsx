@@ -5,7 +5,7 @@ import { Github } from "lucide-react";
 export function GitHubLink() {
   return (
     <a
-      href="https://github.com/your-username/stonks"
+      href="https://github.com/ConradSteiger/stonks"
       target="_blank"
       rel="noopener noreferrer"
       className="p-2 rounded-md hover:bg-accent flex items-center justify-center"
