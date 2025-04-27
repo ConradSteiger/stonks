@@ -1,0 +1,37 @@
+[
+  {
+    "currency": "CHF",
+    "name": "Swiss Re AG",
+    "symbol": "SREN.SWX",
+    "isin": "CH0126881561",
+    "tags": ["High dividend", "Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SREN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0126881561CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Zurich Insurance Group AG",
+    "symbol": "ZURN.SWX",
+    "isin": "CH0011075394",
+    "tags": ["High dividend", "Past success", "Expensive unit"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/ZURN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0011075394CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Swiss Life Holding AG",
+    "symbol": "SLHN.SWX",
+    "isin": "CH0014852781",
+    "tags": ["High dividend", "Past success", "Expensive unit"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SLHN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0014852781CHF4.html#/" }
+    ]
+  }
+
+
+]
