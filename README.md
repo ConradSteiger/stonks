@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stonks - Financial Dashboard
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Stonks is a Dashboard built to provide a clean, organized way to track stocks and ETFs. The application centralizes essential information about financial instruments in one place, displaying important identifiers, tags, and relevant links in a single, easy-to-navigate interface. It also includes a compound interest calculator to help users project the growth of their investments over time. Parts of the implementation were assisted by Claude.ai
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Stocks Overview**: Browse and search through a curated list of stocks with key information
+- **ETFs Overview**: Explore exchange-traded funds with essential details
+- **Compound Interest Calculator**: Project investment growth with different parameters
+- **Dark/Light Mode**: Toggle between visual themes for different lighting environments
+- **Responsive Design**: Works seamlessly on mobile and desktop devices
+- **Searchable Tables**: Quickly find the financial instruments you're looking for
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project leverages several modern web technologies:
 
-## Learn More
+- **Frontend Framework**
+  - [Next.js 15](https://nextjs.org/) - React framework with server-side rendering capabilities
+  - [React 19](https://react.dev/) - UI component library
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **UI Components & Styling**
+  - [shadcn/ui](https://ui.shadcn.com/) - Component collection built on Radix UI
+  - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+  - [Lucide Icons](https://lucide.dev/) - Beautiful open-source icons
