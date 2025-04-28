@@ -26,6 +26,32 @@
     ]
   },
   {
+    "currency": "CHF",
+    "name": "JPM Global Equity Premium Income Active",
+    "symbol": "JEPG",
+    "isin": "IE0003UVYC20",
+    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE0003UVYC20CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "JPM Nasdaq Equity Premium Inc Active",
+    "symbol": "JEPQ",
+    "isin": "IE000U9J8HX9",
+    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9J8HX9USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#holdings" }
+    ]
+  },
+  {
     "currency": "USD",
     "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
     "symbol": "CSNDX",
@@ -36,6 +62,136 @@
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#overview" },
       { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#performance" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
+    "symbol": "CSNDX",
+    "isin": "IE00B53SZB19",
+    "tags": ["Accumulating", "Very expensive unit"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B53SZB19USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "iShares SMI",
+    "symbol": "CSSMI",
+    "isin": "CH0008899764",
+    "tags": ["Distributing", "Cheap"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.CH0008899764CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "iShares Swiss Dividend ETF",
+    "symbol": "CHDVD",
+    "isin": "CH0237935637",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.CH0237935637CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Vanguard FTSE All-World",
+    "symbol": "VWRA",
+    "isin": "IE00BK5BQT80",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BK5BQT80CHF4.html#/fund-details" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "iShares Core MSCI Emerging Markets",
+    "symbol": "EIMI",
+    "isin": "IE00BKM4GZ66",
+    "tags": ["Accumulating", "Very cheap unit"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.XY.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "iShares MSCI China",
+    "symbol": "ICHN",
+    "isin": "IE00BJ5JPG56",
+    "tags": ["Accumulating"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BJ5JPG56USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "iShares MSCI Brazil",
+    "symbol": "4BRZ",
+    "isin": "DE000A0Q4R85",
+    "tags": ["Accumulating", "Very cheap unit"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.DE000A0Q4R85USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "iShares Global Aerospace & Defence",
+    "symbol": "DFND",
+    "isin": "IE000U9ODG19",
+    "tags": ["Accumulating", "Very cheap unit"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9ODG19USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "GLOBAL X DEFENCE TECH",
+    "symbol": "ARMR",
+    "isin": "IE000JCW3DZ3",
+    "tags": ["Accumulating", "Very cheap unit"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000JCW3DZ3CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Global X China Electric Vehicle and Battery",
+    "symbol": "CAUT",
+    "isin": "IE00094FRAA6",
+    "tags": ["Accumulating", "Very cheap unit", "Risky"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00094FRAA6CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#holdings" }
     ]
   }
 ]
