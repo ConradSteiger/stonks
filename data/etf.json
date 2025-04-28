@@ -65,19 +65,6 @@
     ]
   },
   {
-    "currency": "USD",
-    "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
-    "symbol": "CSNDX",
-    "isin": "IE00B53SZB19",
-    "tags": ["Accumulating", "Very expensive unit"],
-    "links": [
-      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B53SZB19USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#holdings" }
-    ]
-  },
-  {
     "currency": "CHF",
     "name": "iShares SMI",
     "symbol": "CSSMI",
