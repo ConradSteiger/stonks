@@ -31,7 +31,170 @@
       { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SLHN:SWX" },
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/shares/share-explorer/share-details.CH0014852781CHF4.html#/" }
     ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Helvetia Versicherungen",
+    "symbol": "HELN.SWX",
+    "isin": "CH0466642201",
+    "tags": ["High dividend", "xy"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/HELN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0466642201CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "xy",
+    "name": "Baloise Holding",
+    "symbol": "BALN.SWX",
+    "isin": "CH0012410517",
+    "tags": ["High dividend"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/BALN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012410517CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "EUR",
+    "name": "Allianz SE",
+    "symbol": "ALV.ETR",
+    "isin": "DE0008404005",
+    "tags": ["High dividend", "Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/ALV:ETR" },
+      { "name": "Börse Frankfurt", "url": "https://www.boerse-frankfurt.de/aktie/allianz-se" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Nestle SA",
+    "symbol": "NESN:SWX",
+    "isin": "CH0038863350",
+    "tags": ["High dividend"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/NESN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0038863350CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "SANDOZ GROUP N",
+    "symbol": "SDZ.SWX",
+    "isin": "CH1243598427",
+    "tags": ["New stock"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SDZ:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH1243598427CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Novartis AG",
+    "symbol": "NOVN.SWX",
+    "isin": "CH0012005267",
+    "tags": [],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/NOVN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012005267CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Roche",
+    "symbol": "ROG.SWX",
+    "isin": "CH0012032048",
+    "tags": ["High dividend", "Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/ROG:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012032048CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "logitech",
+    "symbol": "LOGN.SWX",
+    "isin": "CH0025751329",
+    "tags": [],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/LOGN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0025751329CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Sonova Holding AG",
+    "symbol": "SOON.SWX",
+    "isin": "CH0012549785",
+    "tags": ["Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SOON:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012549785CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Meier Tobler Group",
+    "symbol": "MTG.SWX",
+    "isin": "CH0208062627",
+    "tags": ["Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/MTG:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0208062627CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "ABB Ltd",
+    "symbol": "ABBN.SWX",
+    "isin": "CH0012221716",
+    "tags": ["Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/ABBN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012221716CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "EUR",
+    "name": "Siemens AG",
+    "symbol": "SIE.ETR",
+    "isin": "DE0007236101",
+    "tags": ["Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SIE:ETR" },
+      { "name": "Börse Frankfurt", "url": "https://www.boerse-frankfurt.de/aktie/siemens-ag" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Holcim AG",
+    "symbol": "HOLN.SWX",
+    "isin": "CH0012214059",
+    "tags": ["Past success"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/HOLN:SWX" },
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/shares/share-explorer/share-details.CH0012214059CHF4.html#/" }
+    ]
+  },
+  {
+    "currency": "GBX",
+    "name": "Energean",
+    "symbol": "ENOG.LON",
+    "isin": "GB00BG12Y042",
+    "tags": ["High dividend","Quarterly Pay"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/ENOG:LON" },
+      { "name": "London Stock Exchange", "url": "https://www.londonstockexchange.com/stock/ENOG/energean-plc/company-page" }
+    ]
+  },
+  {
+    "currency": "GBX",
+    "name": "Shell",
+    "symbol": "SHELL.LON",
+    "isin": "GB00BP6MXD84",
+    "tags": ["High dividend"],
+    "links": [
+      { "name": "Google Finance", "url": "https://www.google.com/finance/quote/SHEL:LON" },
+      { "name": "London Stock Exchange", "url": "https://www.londonstockexchange.com/stock/SHEL/shell-plc/company-page" }
+    ]
   }
-
-
 ]
