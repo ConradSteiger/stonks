@@ -40,6 +40,8 @@ export default function CompoundInterestCalculator() {
     // Compound frequency state removed
     const [displayInitialDeposit, setDisplayInitialDeposit] = useState<string>(formatNumberWithApostrophe(initialDeposit));
     const [displayMonthlyContribution, setDisplayMonthlyContribution] = useState<string>(formatNumberWithApostrophe(monthlyContribution));
+    const [displayYears, setDisplayYears] = useState<string>(String(years));
+    const [displayRate, setDisplayRate] = useState<string>(String(rate));
 
     // --- Calculation Logic (Hardcoded Annual Compounding) ---
     const calculationResults = useMemo(() => {
@@ -101,6 +103,23 @@ export default function CompoundInterestCalculator() {
         setMonthlyContribution(numericValue);
         setDisplayMonthlyContribution(formatNumberWithApostrophe(numericValue));
     };
+    const handleYearsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const rawValue = e.target.value;
+        const digits = rawValue.replace(/[^0-9]/g, '');
+        // Ensure years is at least 1 or defaults to 0 if empty
+        const numericValue = digits === '' ? 0 : Math.max(1, parseInt(digits, 10));
+        setYears(numericValue);
+        setDisplayYears(digits === '' ? '' : String(numericValue));
+    };
+    const handleRateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const rawValue = e.target.value;
+        // Allow decimal points for rate
+        const digits = rawValue.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); // Allow only one decimal point
+        // Parse as float for rate
+        const numericValue = digits === '' ? 0 : parseFloat(digits);
+        setRate(numericValue);
+        setDisplayRate(digits);
+    };
 
     // --- JSX Structure ---
     return (
@@ -119,8 +138,8 @@ export default function CompoundInterestCalculator() {
                     <CardContent className="space-y-4">
                         <div><Label htmlFor="initialDeposit">Initial Deposit ($)</Label><Input id="initialDeposit" type="text" inputMode="numeric" value={displayInitialDeposit} onChange={handleInitialDepositChange} placeholder="e.g. 5'000" /></div>
                         <div><Label htmlFor="monthlyContribution">Monthly Contribution ($)</Label><Input id="monthlyContribution" type="text" inputMode="numeric" value={displayMonthlyContribution} onChange={handleMonthlyContributionChange} placeholder="e.g. 200" /></div>
-                        <div><Label htmlFor="years">Years of Growth</Label><Input id="years" type="number" value={years} onChange={(e) => setYears(Math.max(1, Number(e.target.value)))} min="1" /></div>
-                        <div><Label htmlFor="rate">Rate of Return (Yearly %)</Label><Input id="rate" type="number" value={rate} onChange={(e) => setRate(Number(e.target.value))} step="0.1" /></div>
+                        <div><Label htmlFor="years">Years of Growth</Label><Input id="years" type="text" inputMode="numeric" value={displayYears} onChange={handleYearsChange} placeholder="e.g. 10" /></div>
+                        <div><Label htmlFor="rate">Rate of Return (Yearly %)</Label><Input id="rate" type="text" inputMode="decimal" value={displayRate} onChange={handleRateChange} placeholder="e.g. 7" /></div>
                         {/* Compound Frequency Select REMOVED */}
                     </CardContent>
                 </Card>

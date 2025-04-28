@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex mt-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl">
           {/* Stocks Card */}
-          <Card className="flex flex-col h-80">
+          <Card className="flex flex-col h-64 md:h-75">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <TrendingUp className="h-5 w-5" />
@@ -47,7 +47,7 @@ export default function Home() {
           </Card>
 
           {/* ETFs Card */}
-          <Card className="flex flex-col h-80">
+          <Card className="flex flex-col h-64 md:h-75">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <BarChart2 className="h-5 w-5" />
@@ -73,7 +73,7 @@ export default function Home() {
           </Card>
 
           {/* Calculator Card */}
-          <Card className="flex flex-col h-80">
+          <Card className="flex flex-col h-64 md:h-75">
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Calculator className="h-5 w-5" />
