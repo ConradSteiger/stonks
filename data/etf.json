@@ -160,7 +160,7 @@
     "name": "iShares Global Aerospace & Defence",
     "symbol": "DFND",
     "isin": "IE000U9ODG19",
-    "tags": ["Accumulating", "Very cheap unit"],
+    "tags": ["Accumulating", "Very cheap unit", "Risky"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9ODG19USD4.html#/" },
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#overview" },
@@ -173,7 +173,7 @@
     "name": "GLOBAL X DEFENCE TECH",
     "symbol": "ARMR",
     "isin": "IE000JCW3DZ3",
-    "tags": ["Accumulating", "Very cheap unit"],
+    "tags": ["Accumulating", "Very cheap unit", "Risky"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000JCW3DZ3CHF4.html#/" },
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#overview" },
