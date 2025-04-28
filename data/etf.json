@@ -110,7 +110,7 @@
     "isin": "IE00BKM4GZ66",
     "tags": ["Accumulating", "Very cheap unit"],
     "links": [
-      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.XY.html#/" },
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00BKM4GZ66USD4.html#/" },
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#overview" },
       { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#performance" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#holdings" }
