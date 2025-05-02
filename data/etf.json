@@ -26,32 +26,6 @@
     ]
   },
   {
-    "currency": "CHF",
-    "name": "JPM Global Equity Premium Income Active",
-    "symbol": "JEPG",
-    "isin": "IE0003UVYC20",
-    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
-    "links": [
-      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE0003UVYC20CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#holdings" }
-    ]
-  },
-  {
-    "currency": "USD",
-    "name": "JPM Nasdaq Equity Premium Inc Active",
-    "symbol": "JEPQ",
-    "isin": "IE000U9J8HX9",
-    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
-    "links": [
-      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9J8HX9USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#holdings" }
-    ]
-  },
-  {
     "currency": "USD",
     "name": "iShares NASDAQ 100 UCITS ETF USD (Acc)",
     "symbol": "CSNDX",
@@ -88,19 +62,6 @@
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#overview" },
       { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#performance" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#holdings" }
-    ]
-  },
-  {
-    "currency": "CHF",
-    "name": "Vanguard FTSE All-World",
-    "symbol": "VWRA",
-    "isin": "IE00BK5BQT80",
-    "tags": ["Distributing"],
-    "links": [
-      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BK5BQT80CHF4.html#/fund-details" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#holdings" }
     ]
   },
   {
@@ -153,6 +114,45 @@
       { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#overview" },
       { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#performance" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "JPM Global Equity Premium Income Active",
+    "symbol": "JEPG",
+    "isin": "IE0003UVYC20",
+    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE0003UVYC20CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "JPM Nasdaq Equity Premium Inc Active",
+    "symbol": "JEPQ",
+    "isin": "IE000U9J8HX9",
+    "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9J8HX9USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#holdings" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Vanguard FTSE All-World",
+    "symbol": "VWRA",
+    "isin": "IE00BK5BQT80",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BK5BQT80CHF4.html#/fund-details" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#holdings" }
     ]
   },
   {
