@@ -69,7 +69,7 @@ export default async function ETFPage() {
   const etfData = await getEtfData();
 
   return (
-    <div className="space-y-6 p-4 md:p-6"> {/* Added some padding for better spacing */}
+    <div className="space-y-6"> {/* Added some padding for better spacing */}
       <header>
         <h1 className="text-3xl font-bold tracking-tight">ETFs</h1>
         <p className="text-muted-foreground">Discover and track exchange-traded funds</p>

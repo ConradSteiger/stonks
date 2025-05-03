@@ -69,7 +69,7 @@ export default async function StockPage() {
   const stockData = await getStockData();
 
   return (
-    <div className="space-y-6 p-4 md:p-6"> {/* Added some padding for better spacing */}
+    <div className="space-y-6"> {/* Added some padding for better spacing */}
       <header>
         <h1 className="text-3xl font-bold tracking-tight">Stocks</h1>
         <p className="text-muted-foreground">Monitor and analyze your stock investments</p>
