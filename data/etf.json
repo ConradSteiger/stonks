@@ -180,5 +180,31 @@
       { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#performance" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#holdings" }
     ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Vanguard S&P 500 UCITS ETF (USD) Distributing",
+    "symbol": "VUSA",
+    "isin": "IE00B3XXRP09",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00B3XXRP09CHF4.html#/chart" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#uebersicht" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#rendite" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#zusammensetzung" }
+    ]
+  },
+  {
+    "currency": "CHF",
+    "name": "Vanguard FTSE All-World UCITS ETF (USD) Distributing",
+    "symbol": "VWRL",
+    "isin": "IE00B3RBWM25",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00B3RBWM25CHF4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#uebersicht" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#rendite" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#zusammensetzung" }
+    ]
   }
 ]
