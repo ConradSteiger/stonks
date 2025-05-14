@@ -206,5 +206,18 @@
       { "name": "justETF - Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#rendite" },
       { "name": "justETF - Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#zusammensetzung" }
     ]
+  },
+  {
+    "currency": "USD",
+    "name": "Invesco Physical Gold ETC",
+    "symbol": "SGLD",
+    "isin": "IE00B579F325",
+    "tags": ["Commodity"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etp/etp-explorer/etp-detail.IE00B579F325USD4.html#/" },
+      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#overview" },
+      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#performance" },
+      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#holdings" }
+    ]
   }
 ]
