@@ -2,7 +2,7 @@
 
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { Copy, Check, ExternalLink } from "lucide-react";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Button } from "@/components/ui/button";
@@ -14,7 +14,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-// import type { Key } from 'react'; // REMOVED: Unused import
 
 // --- Type Definitions ---
 type DataItem = Record<string, unknown>;
@@ -45,30 +44,45 @@ export const Renderers = {
     );
   },
   links: (value: unknown): React.ReactNode => {
-    if (!Array.isArray(value) || value.length === 0) { return <span className="text-muted-foreground">-</span>; }
+    if (!Array.isArray(value) || value.length === 0) {
+      return <span className="text-muted-foreground">-</span>;
+    }
     const validLinks = value.filter((item): item is LinkItem =>
-      typeof item === 'object' && item !== null && typeof item.name === 'string' && item.name.trim() !== '' && typeof item.url === 'string' && item.url.trim() !== ''
+      typeof item === 'object' && item !== null &&
+      typeof item.name === 'string' && item.name.trim() !== '' &&
+      typeof item.url === 'string' && item.url.trim() !== ''
     );
-    if (validLinks.length === 0) { if (value.length > 0) { console.warn("Invalid data passed to Renderers.links.", value); } return <span className="text-muted-foreground">-</span>; }
+
+    if (validLinks.length === 0) {
+      if (value.length > 0) {
+        console.warn("Invalid data passed to Renderers.links. No valid links found.", value);
+      }
+      return <span className="text-muted-foreground">-</span>;
+    }
+
     return (
-      <DropdownMenu>
-        <DropdownMenuTrigger asChild>
-          <Button variant="outline" size="sm" className="h-8 gap-1 px-2.5 py-0.5 text-xs sm:text-sm">
-            <ExternalLink className="h-3.5 w-3.5" aria-hidden="true" />
-            <span className="whitespace-nowrap">Links ({validLinks.length})</span>
+      <div className="flex flex-wrap gap-1 items-center">
+        {validLinks.map((link, i) => (
+          <Button
+            key={`${link.name}-${i}-${link.url}`}
+            variant="outline"
+            className="h-6 px-1.5 py-1.5 text-xs gap-1 cursor-pointer"
+            onClick={(e) => {
+              e.stopPropagation();
+              window.open(link.url, '_blank', 'noopener,noreferrer');
+            }}
+            title={`Open: ${link.name} (${link.url})`}
+          >
+            <ExternalLink className="h-3 w-3 flex-shrink-0" aria-hidden="true" />
+            <span
+              className="inline-block whitespace-nowrap"
+              title={link.name}
+            >
+              {link.name}
+            </span>
           </Button>
-        </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="w-56">
-          {validLinks.map((link, i) => (
-            <DropdownMenuItem key={`${link.name}-${i}`} asChild>
-              <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 cursor-pointer w-full">
-                <ExternalLink className="h-3.5 w-3.5 text-muted-foreground flex-shrink-0" aria-hidden="true" />
-                <span className="truncate" title={link.name}>{link.name}</span>
-              </a>
-            </DropdownMenuItem>
-          ))}
-        </DropdownMenuContent>
-      </DropdownMenu>
+        ))}
+      </div>
     );
   }
 };
@@ -96,8 +110,6 @@ export function OverviewTable({
   searchPlaceholder = "Search..."
 }: OverviewTableProps) {
 
-  // Initialize state for data (filtering works on this)
-  // REMOVED setData as it's not currently used
   const [data] = useState<DataItem[]>(initialData);
   const [copiedText, setCopiedText] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -108,7 +120,6 @@ export function OverviewTable({
       .catch(error => { console.error('Failed to copy text: ', error); toast.error(`Failed to copy text`); });
   };
 
-  // Filter based on the 'data' state
   const filteredData = data.filter((item) => {
     if (!searchTerm.trim()) return true; const term = searchTerm.toLowerCase();
     return columns.some(column => {
@@ -130,24 +141,44 @@ export function OverviewTable({
 
   const renderCell = (item: DataItem, column: ColumnDefinition) => {
     const value = item[column.key];
+
     if (column.rendererType && Renderers[column.rendererType]) {
       const rendererFunction = Renderers[column.rendererType];
       return rendererFunction(value);
     }
+
+    const displayedValue = renderDefaultValue(value);
+
     if (column.copyable && value !== undefined && value !== null) {
-      const stringValue = String(value);
+      // If displayedValue is a placeholder span (e.g., "[Object]", "[Array]", "-"),
+      // then don't show the copy button, just return the placeholder.
+      if (React.isValidElement(displayedValue)) {
+        // Assert props structure to safely access className
+        const props = displayedValue.props as { className?: unknown };
+        if (typeof props.className === 'string' && props.className.includes("text-muted-foreground")) {
+          return displayedValue; // It's a placeholder, just render it.
+        }
+      }
+      // If not a placeholder (or not an element, i.e., it's a string from renderDefaultValue),
+      // proceed to make it copyable.
+
+      const stringValueToCopy = String(value); // Original value for copying
       return (
         <div className="flex items-center gap-2">
-
-          <button onClick={(e) => { e.stopPropagation(); copyToClipboard(stringValue); }} className="text-muted-foreground hover:text-primary transition-colors cursor-pointer flex-shrink-0 p-1 -m-1 rounded focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring" aria-label={`Copy ${stringValue}`}>
-            {copiedText === stringValue ? <Check className="h-4 w-4 text-green-600" aria-hidden="true" /> : <Copy className="h-4 w-4" aria-hidden="true" />}
+          <button
+            onClick={(e) => { e.stopPropagation(); copyToClipboard(stringValueToCopy); }}
+            className="text-muted-foreground hover:text-primary transition-colors cursor-pointer flex-shrink-0 p-1 -m-1 rounded focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+            aria-label={`Copy ${stringValueToCopy}`}
+          >
+            {copiedText === stringValueToCopy ? <Check className="h-4 w-4 text-green-600" aria-hidden="true" /> : <Copy className="h-4 w-4" aria-hidden="true" />}
           </button>
-
-          <span className="font-mono">{renderDefaultValue(value)}</span>
+          {/* If displayedValue was a string from renderDefaultValue, wrap in font-mono. */}
+          {/* If it was a React element (but not a placeholder), render it as is. */}
+          {typeof displayedValue === 'string' ? <span className="font-mono">{displayedValue}</span> : displayedValue}
         </div>
       );
     }
-    return renderDefaultValue(value);
+    return displayedValue;
   };
 
   // --- JSX Output ---

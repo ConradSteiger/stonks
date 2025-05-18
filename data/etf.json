@@ -7,9 +7,9 @@
     "tags": ["Accumulating"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B4L5Y983USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983#holdings" }
     ]
   },
   {
@@ -20,9 +20,9 @@
     "tags": ["Accumulating", "Expensive unit"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B5BMR087USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087#holdings" }
     ]
   },
   {
@@ -33,9 +33,9 @@
     "tags": ["Accumulating", "Very expensive unit"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B53SZB19USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B53SZB19#holdings" }
     ]
   },
   {
@@ -46,9 +46,9 @@
     "tags": ["Distributing", "Cheap"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.CH0008899764CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0008899764#holdings" }
     ]
   },
   {
@@ -59,11 +59,28 @@
     "tags": ["Distributing"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.CH0237935637CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=CH0237935637#holdings" }
     ]
   },
+
+  {
+    "currency": "CHF",
+    "name": "iShares Core MSCI Europe",
+    "symbol": "IMEA",
+    "isin": "IE00B4K48X80",
+    "tags": ["Accumulating"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00B4K48X80CHF4.html#/" },
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4K48X80#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4K48X80#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4K48X80#holdings" }
+    ]
+  },
+
+
+
   {
     "currency": "USD",
     "name": "iShares Core MSCI Emerging Markets",
@@ -72,9 +89,9 @@
     "tags": ["Accumulating", "Very cheap unit"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00BKM4GZ66USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66#holdings" }
     ]
   },
   {
@@ -85,9 +102,9 @@
     "tags": ["Accumulating"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BJ5JPG56USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JPG56#holdings" }
     ]
   },
   {
@@ -98,9 +115,9 @@
     "tags": ["Accumulating", "Very cheap unit"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.DE000A0Q4R85USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0Q4R85#holdings" }
     ]
   },
   {
@@ -111,9 +128,9 @@
     "tags": ["Accumulating", "Very cheap unit", "Risky"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9ODG19USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9ODG19#holdings" }
     ]
   },
   {
@@ -124,9 +141,9 @@
     "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE0003UVYC20CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0003UVYC20#holdings" }
     ]
   },
   {
@@ -137,9 +154,9 @@
     "tags": ["Distributing", "Very cheap unit", "Monthly payout"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000U9J8HX9USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000U9J8HX9#holdings" }
     ]
   },
   {
@@ -150,9 +167,9 @@
     "tags": ["Distributing"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00BK5BQT80CHF4.html#/fund-details" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80#holdings" }
     ]
   },
   {
@@ -163,9 +180,9 @@
     "tags": ["Accumulating", "Very cheap unit", "Risky"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE000JCW3DZ3CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000JCW3DZ3#holdings" }
     ]
   },
   {
@@ -176,9 +193,9 @@
     "tags": ["Accumulating", "Very cheap unit", "Risky"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00094FRAA6CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00094FRAA6#holdings" }
     ]
   },
   {
@@ -189,9 +206,9 @@
     "tags": ["Distributing"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00B3XXRP09CHF4.html#/chart" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#uebersicht" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#rendite" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#zusammensetzung" }
+      { "name": "Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#uebersicht" },
+      { "name": "Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#rendite" },
+      { "name": "Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3XXRP09#zusammensetzung" }
     ]
   },
   {
@@ -202,9 +219,9 @@
     "tags": ["Distributing"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/de/market-data/etf/etf-explorer/etf-detail.IE00B3RBWM25CHF4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#uebersicht" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#rendite" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#zusammensetzung" }
+      { "name": "Overview", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#uebersicht" },
+      { "name": "Performance", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#rendite" },
+      { "name": "Composition", "url": "https://www.justetf.com/ch/etf-profile.html?isin=IE00B3RBWM25#zusammensetzung" }
     ]
   },
   {
@@ -215,9 +232,9 @@
     "tags": ["Commodity"],
     "links": [
       { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etp/etp-explorer/etp-detail.IE00B579F325USD4.html#/" },
-      { "name": "justETF - Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#overview" },
-      { "name": "justETF - Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#performance" },
-      { "name": "justETF - Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#holdings" }
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B579F325#holdings" }
     ]
   }
 ]
