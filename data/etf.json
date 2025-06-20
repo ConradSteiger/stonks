@@ -39,6 +39,32 @@
     ]
   },
   {
+    "currency": "USD",
+    "name": "Invesco EQQQ NASDAQ-100 UCITS ETF",
+    "symbol": "EQAC",
+    "isin": "IE00BFZXGZ54",
+    "tags": ["Accumulating"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE00BFZXGZ54USD4.html#/" },
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFZXGZ54#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFZXGZ54#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFZXGZ54#holdings" }
+    ]
+  },
+  {
+    "currency": "USD",
+    "name": "ARK Innovation UCITS ETF",
+    "symbol": "ARKK",
+    "isin": "IE000GA3D489",
+    "tags": ["Accumulating"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.IE000GA3D489CHF4.html#/" },
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000GA3D489#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000GA3D489#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000GA3D489#holdings" }
+    ]
+  },
+  {
     "currency": "CHF",
     "name": "iShares SMI",
     "symbol": "CSSMI",
@@ -78,9 +104,6 @@
       { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4K48X80#holdings" }
     ]
   },
-
-
-
   {
     "currency": "USD",
     "name": "iShares Core MSCI Emerging Markets",
