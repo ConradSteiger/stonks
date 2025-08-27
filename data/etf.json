@@ -52,6 +52,19 @@
     ]
   },
   {
+    "currency": "EUR",
+    "name": "iShares STOXX Europe 600 Insurance UCITS ETF",
+    "symbol": "SXIPEX",
+    "isin": "DE000A0H08K7",
+    "tags": ["Distributing"],
+    "links": [
+      { "name": "SIX", "url": "https://www.six-group.com/en/market-data/etf/etf-explorer/etf-detail.DE000A0H08K7EUR4.html#/" },
+      { "name": "Overview", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0H08K7#overview" },
+      { "name": "Performance", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0H08K7#performance" },
+      { "name": "Composition", "url": "https://www.justetf.com/en/etf-profile.html?isin=DE000A0H08K7#holdings" }
+    ]
+  },
+  {
     "currency": "USD",
     "name": "ARK Innovation UCITS ETF",
     "symbol": "ARKK",
